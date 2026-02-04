@@ -99,7 +99,7 @@ function Admin({ onBack }) {
         <>
           <div className="modal-row"><label>Staff ID</label><input className="modal-pill" value={staffForm.id} onChange={e => setStaffForm({...staffForm, id: e.target.value})} placeholder="S-001" /></div>
           <div className="modal-row"><label>Name</label><input className="modal-pill" value={staffForm.name} onChange={e => setStaffForm({...staffForm, name: e.target.value})} placeholder="Full Name" /></div>
-          <div className="modal-row"><label>Occupation</label><input className="modal-pill" value={staffForm.occupation} onChange={e => setStaffForm({...staffForm, occupation: e.target.value})} placeholder="Manager/Admin/Staff" /></div>
+          <div className="modal-row"><label>Occupation</label><input className="modal-pill" value={staffForm.occupation} onChange={e => setStaffForm({...staffForm, occupation: e.target.value})} placeholder="Admin/Storekeeper/Staff" /></div>
           <div className="modal-row"><label>Username</label><input className="modal-pill" value={staffForm.username} onChange={e => setStaffForm({...staffForm, username: e.target.value})} placeholder="Set Login Username" /></div>
           <div className="modal-row"><label>Password</label><input className="modal-pill" type="password" value={staffForm.password} onChange={e => setStaffForm({...staffForm, password: e.target.value})} placeholder="Set Login Password" /></div>
         </>
